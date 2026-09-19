@@ -12,5 +12,9 @@ manifest:
     - name: zmk-halcyon-module
       remote: splitkb
       revision: main
+    - name: zmk-halcyon-config
+      url: https://github.com/Tuurahk/zmk-halcyon-config
+      revision: HEAD
+      path: modules/zmk-halcyon-config
   self:
     path: config
