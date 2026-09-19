@@ -11,9 +11,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define DEFAULT  0
-#define NAV      1
-#define SYM      2
-#define FUNCTION 3
+#define SYM      1
+#define FUNCTION 2
+#define NAV      3
 #define ADJUST   4
 
 / {
