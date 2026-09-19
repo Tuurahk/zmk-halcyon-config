@@ -9,12 +9,13 @@ manifest:
       remote: splitkb
       revision: main+halcyon-fixes
       import: app/west.yml
-    - name: zmk-halcyon-module
-      url: https://github.com/Tuurahk/zmk-halcyon-module
-      revision: develop
     - name: zmk-halcyon-config
       url: https://github.com/Tuurahk/zmk-halcyon-config
       revision: develop
       path: modules/zmk-halcyon-config
+    - name: zmk-halcyon-module
+      url: https://github.com/Tuurahk/zmk-halcyon-module
+      revision: develop
+      path: modules/zmk-halcyon-module
   self:
     path: config
