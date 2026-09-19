@@ -25,4 +25,4 @@ include:
     shield: halcyon_elora_left mod_battery_coincell mod_display_epaper_forest
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: halcyon_wireless//zmk
-    shield: halcyon_elora_right
+    shield: halcyon_elora_right mod_battery_coincell
