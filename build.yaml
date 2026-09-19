@@ -17,9 +17,12 @@
 #
 ---
 include:
-    - board: halcyon_dongle
+  - board: halcyon_dongle
     shield: halcyon_elora_dongle
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    snippet: studio-rpc-usb-uart
   - board: halcyon_wireless
-    shield: halcyon_elora_left mod_battery_coincell mod_display_epaper
+    shield: halcyon_elora_left mod_battery_coincell mod_display_epaper_forest
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: halcyon_wireless
     shield: halcyon_elora_right
