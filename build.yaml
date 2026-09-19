@@ -16,3 +16,10 @@
 #     shield: halcyon_kyria_right mod_battery_coincell mod_encoder_right
 #
 ---
+include:
+    - board: halcyon_dongle
+    shield: halcyon_elora_dongle
+  - board: halcyon_wireless
+    shield: halcyon_elora_left mod_battery_coincell mod_display_epaper
+  - board: halcyon_wireless
+    shield: halcyon_elora_right
