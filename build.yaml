@@ -24,5 +24,6 @@ include:
   - board: halcyon_wireless//zmk
     shield: halcyon_elora_left mod_battery_coincell mod_display_epaper_cityscape
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    snippet: zmk-usb-logging
   - board: halcyon_wireless//zmk
     shield: halcyon_elora_right mod_battery_coincell
