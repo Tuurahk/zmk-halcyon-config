@@ -11,10 +11,10 @@ manifest:
       import: app/west.yml
     - name: zmk-halcyon-config
       url: https://github.com/Tuurahk/zmk-halcyon-config
-      revision: develop
+      revision: feature/battery-percentage
       path: modules/zmk-halcyon-config
     - name: zmk-halcyon-module
       url: https://github.com/Tuurahk/zmk-halcyon-module
-      revision: develop
+      revision: feature/battery-percentage
   self:
     path: config
