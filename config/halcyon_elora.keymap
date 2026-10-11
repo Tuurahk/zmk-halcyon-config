@@ -60,6 +60,11 @@
             key-positions = <56 57>;
             layers = <0>;
         };
+
+        Adjust_Layer {
+            bindings = <&mo 4>;
+            key-positions = <55 58>;
+        };
     };
 
     keymap {
