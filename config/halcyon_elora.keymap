@@ -60,11 +60,6 @@
             key-positions = <56 57>;
             layers = <0>;
         };
-
-        Adjust_Layer {
-            bindings = <&mo 4>;
-            key-positions = <55 58>;
-        };
     };
 
     keymap {
@@ -81,12 +76,12 @@
             //                      | ADJ | GUI |LA(ENT)| SPC  | NAV  |   | SYM  | SPC  | ALT | GUI | APP |
 
             bindings = <
-&none       &none  &none  &none  &none  &none                                                        &none     &none  &none      &none    &none     &none
-&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T                                                        &kp Y     &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&mo 3       &kp A  &kp S  &kp D  &kp F  &kp G                                                        &kp H     &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B         &none  &none             &none      &none      &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                          &none  &none  &mt LALT RET  &mo 1  &kp LEFT_CONTROL  &lt 2 TAB  &kp SPACE  &kp RALT  &none  &none
-&none       &none  &none  &none  &none                                                                         &none  &none      &none    &none     &none
+&none       &none  &none  &none  &none  &none                                                        &none          &none  &none      &none    &none     &none
+&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T                                                        &kp Y          &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&mo 3       &kp A  &kp S  &kp D  &kp F  &kp G                                                        &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B         &none  &none             &none      &none      &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                          &none  &none  &mt LALT RET  &mo 1  &kp LEFT_CONTROL  &lt 2 TAB  &kp SPACE  &kp RIGHT_WIN  &none  &none
+&none       &none  &none  &none  &none                                                                              &none  &none      &none    &none     &none
             >;
         };
 
@@ -145,7 +140,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                  &kp K_CALC  &kp PG_UP   &kp UP            &kp PG_DN   &kp PSCRN   &kp DEL
 &trans  &trans  &trans  &trans  &trans  &trans                                  &kp HOME    &kp LEFT    &kp DOWN          &kp RIGHT   &kp INS     &kp K_VOL_UP
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp END     &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp K_MUTE  &kp K_VOL_DN
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &mo 4   &trans      &trans      &trans
 &trans  &trans  &trans  &trans  &trans                                                      &trans      &trans            &trans      &trans      &trans
             >;
         };
